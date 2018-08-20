@@ -1,12 +1,29 @@
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
+#Project Files Of Idea
+.idea/
+*.iml
 
-# Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
-!/.mvn/wrapper/maven-wrapper.jar
+#Output Folder
+target/
+
+#Log Folder
+logs/
+~/
+
+#Output Files
+*.jar
+*.class
+
+#Project Files Of Eclipse
+.settings/
+.classpath
+.project
+
+#Test
+/Test
+
+#Mac OS Cache File
+.DS_Store
+
+#JRebel
+rebel.xml
+.rebel.*
